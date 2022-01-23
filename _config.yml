@@ -13,20 +13,106 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "dark"
+
+
+# Site Settings:
+url: "https://centribo.github.io"
+domain: "centribo.github.io"
+baseurl: "/"
+
+locale: "en-CA"
+title: "Centribo"
+title_separator: "|"
+name: &myName "Adam Leung"
+# description: "This is a sample site description"
+
+words_per_minute: 200
 search: true
+
+# Social Sharing
+twitter:
+  username: centribo
+og_image: "/assets/images/Centribo_Avatar_Black.png"
+social:
+  type: Person
+  links:
+    - &twitter_url "https://twitter.com/centribo"
+    - &youtube_url "https://www.youtube.com/user/Centribo"
+    - &instagram_url "https://instagram.com/iamcentribo"
+    - &github_url "https://github.com/centribo"
+    - &portfolio_url "http://www.adamleung.me/"
+
+# Analytics
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "G-T249EYCZZT"
+
+# Site Author
+author:
+  name   : Centribo
+  avatar : "/assets/images/Centribo_Avatar_Black.png"
+  bio    : "My awesome biography constrained to a sentence or two goes here."
+  links:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: *instagram_url
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: *github_url
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:centribo@gmail.com"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-link"
+      url: *portfolio_url
+
+footer:
+  links:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: *instagram_url
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: *github_url
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:centribo@gmail.com"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-link"
+      url: *portfolio_url
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -56,60 +142,3 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
-author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
