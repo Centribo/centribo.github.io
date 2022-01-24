@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "centribo"
+minimal_mistakes_skin: "default"
 
 # Site Settings:
 url: "https://centribo.com"
