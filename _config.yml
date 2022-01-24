@@ -103,6 +103,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: "assets/images/photography"
+    values:
+      photography_image: true
+
 
 category_archive:
   type: liquid
