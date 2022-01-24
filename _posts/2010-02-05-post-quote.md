@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Post: Quote"
 categories:
   - Blog
