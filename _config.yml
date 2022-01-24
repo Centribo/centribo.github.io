@@ -18,9 +18,9 @@ minimal_mistakes_skin: "dark"
 
 
 # Site Settings:
-url: "https://centribo.github.io"
+url: "https://centribo.com"
 domain: "centribo.github.io"
-baseurl: "/"
+# baseurl: "/"
 
 locale: "en-CA"
 title: "Centribo"
@@ -48,7 +48,7 @@ social:
 analytics:
   provider: "google"
   google:
-    tracking_id: "G-T249EYCZZT"
+    tracking_id: "UA-140230694-2"
 
 # Site Author
 author:
