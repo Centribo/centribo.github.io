@@ -13,7 +13,7 @@ author_profile: true
 {% for image in image_files %}
 {% assign path = image.path %}
 <a class="image-popup" href="{{ path }}">
-  <img src="{{ path }}"/>
+  <img src="{{ path }}" class ="lazyload" />
 </a>
 {% endfor %}
 </figure>
