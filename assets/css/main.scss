@@ -34,3 +34,18 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+.photography-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 20px;
+  align-items: center;
+
+  a {
+    border: 3px solid #fff;
+    // box-shadow: 4px 4px 10px 0px  rgba(0,0,0,0);
+    filter: drop-shadow(0 0 0.3rem black);
+    max-width: 100%;
+  }
+}
