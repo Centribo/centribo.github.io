@@ -95,6 +95,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
@@ -121,7 +122,7 @@ markdown: kramdown
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Toronto # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages

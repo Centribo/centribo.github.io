@@ -35,6 +35,9 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+figcaption {
+  font-family: 'Roboto Serif', serif;
+}
 
 .photography-gallery {
   display: grid;
