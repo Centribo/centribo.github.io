@@ -24,12 +24,12 @@ Shooting went just normally; I was able to focus as normal and let my camera met
 
 {% include figure image_path="/assets/images/blog/PXL_20221206_095128098.jpg" caption="How the negatives look. Look at those tasty boba balls." %}
 
-{% include figure image_path="/assets/images/photography/Adam Leung - 20221120.jpg" %}
-{% include figure image_path="/assets/images/photography/Adam Leung - 20221128.jpg" caption="Up close with my little succulent plant" %}
-{% include figure image_path="/assets/images/photography/Adam Leung - 20221203.jpg" %}
-{% include figure image_path="/assets/images/photography/Adam Leung - 20221203-2.jpg" %}
-{% include figure image_path="/assets/images/photography/Adam Leung - 20221203-3.jpg" %}
-{% include figure image_path="/assets/images/photography/Adam Leung - 20221203-5.jpg" caption="Hi Ryan!" %}
-{% include figure image_path="/assets/images/photography/Adam Leung - 20221203-4.jpg" %}
+{% include figure image_path="/assets/images/photography/Adam Leung - 20221120-1548.jpg" %}
+{% include figure image_path="/assets/images/photography/Adam Leung - 20221128-1040.jpg" caption="Up close with my little succulent plant" %}
+{% include figure image_path="/assets/images/photography/Adam Leung - 20221203-1531.jpg" %}
+{% include figure image_path="/assets/images/photography/Adam Leung - 20221203-1539.jpg" %}
+{% include figure image_path="/assets/images/photography/Adam Leung - 20221203-1551.jpg" %}
+{% include figure image_path="/assets/images/photography/Adam Leung - 20221203-1701.jpg" caption="Hi Ryan!" %}
+{% include figure image_path="/assets/images/photography/Adam Leung - 20221203-1555.jpg" %}
 
 The fisheye look is definitely something that I want to keep experimenting with, maybe with colour film next time. I love how warped perspective lines look across the frame and how distorted things can look as they get closer to the lens. Am I gonna shoot it everyday? No, but it's a great toy I can throw in my camera bag for when I want to get this look. For ~$30 to get these results, I'm super happy, and I'd highly recommend looking for a cheap fisheye adapter if you're curious about trying it out yourself.
