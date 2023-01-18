@@ -8,6 +8,8 @@ tags:
   - Photography
   - Analog Photography
   - Ilford HP5 Plus
+# header:
+#   image: /assets/images/blog/PXL_20221206_090309633.jpg
 ---
 
 Over the last few months I've been talking on the [Film Photographers Discord Server](https://discord.gg/Bk59thA) (come check us out!) and there's been a recent interest around fisheye photography. I decided I wanted to try and get in on the hype and get into it myself, until I looked up some fisheye lens options and couldn't find any cheap Nikon F options. Luckily, I stumbled upon this this cheap fisheye adapter for $25 at a local thrift store.
