@@ -47,7 +47,8 @@ social:
 analytics:
   provider: "google-universal"
   google:
-    tracking_id: "UA-140230694-2"
+    # tracking_id: "UA-140230694-2"
+    tracking_id: "G-65DF2T69SK"
 
 # Site Author
 author:
