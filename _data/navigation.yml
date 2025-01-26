@@ -5,7 +5,9 @@ main:
     # url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Photography"
-    url: /photography/
+  # - title: "Photography"
+  #   url: /photography/
   # - title: "About"
   #   url: /about/
+  - title: "Store"
+    url: https://www.etsy.com/shop/centribo
