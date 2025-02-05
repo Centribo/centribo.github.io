@@ -5,6 +5,8 @@ permalink: /zine/
 author_profile: true
 ---
 
-<meta http-equiv="Refresh" content="0; url='https://www.etsy.com/shop/centribo'" />
+<meta http-equiv="Refresh" content="0; url='https://www.etsy.com/ca/listing/1850477106/us-again-photography-zine'" />
 
-Purchase from Etsy [here](https://www.etsy.com/shop/centribo).
+![us, again cover](/assets/images/photos/us,%20again%20cover.jpg)
+
+Purchase from Etsy [here](https://www.etsy.com/ca/listing/1850477106/us-again-photography-zine).
